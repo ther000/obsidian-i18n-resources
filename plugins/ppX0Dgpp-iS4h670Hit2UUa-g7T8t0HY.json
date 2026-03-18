@@ -1,0 +1,79 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "contribution-graph",
+        "version": "1.0.0",
+        "title": "Contribution Graph",
+        "description": "Contribution Graph Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.10.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "···",
+                    "target": "···"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 需要一个介于 0 到 125 的正整数，不支持强制设置高于 125 fps 的帧率"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No markdown view is active",
+                    "target": "没有激活的 Markdown 视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "from date, such as 2023-01-01",
+                    "target": "起始日期，例如 2023-01-01"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "to date, such as 2023-12-31",
+                    "target": "结束日期，例如 2023-12-31"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Initialize Dataview failed",
+                    "target": "初始化 Dataview 失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Unsupported data source",
+                    "target": "不支持的数据源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "content parse error, please check the format(such as blank, indent)",
+                    "target": "内容解析错误，请检查格式（如空格、缩进）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "微信",
+                    "target": "微信"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Buy me a coffee",
+                    "target": "请我喝杯咖啡"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
